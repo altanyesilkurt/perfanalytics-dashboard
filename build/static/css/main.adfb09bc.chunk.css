@@ -1,0 +1,2 @@
+.dashboard-wrapper{display:grid;grid-template:1fr 1fr/1fr 1fr;grid-gap:1rem}.dashboard-wrapper div:nth-child(n){width:80%;margin:auto}.dashboard-wrapper div:nth-child(n) h3,.dashboard-wrapper div:nth-child(n) p:last-child{text-align:center}@media(max-width:1200px){.dashboard-wrapper{grid-template:1fr/1fr}}
+/*# sourceMappingURL=main.adfb09bc.chunk.css.map */
