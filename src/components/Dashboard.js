@@ -1,8 +1,8 @@
 import React from 'react'
 import LineChart from 'react-svg-line-chart'
 
-const Dashboard = ({dataToDraw}) =>{
-    const coordinateData= dataToDraw && dataToDraw.map((el,i) => ({
+const Dashboard = ({dataToLineChart}) =>{
+    const coordinateData= dataToLineChart && dataToLineChart.map((el,i) => ({
         x:i,
         y:el
     }))
