@@ -2,7 +2,8 @@ import React, { useEffect, useState } from "react";
 import Dashboard from "./components/Dashboard";
 import "./App.scss";
 
-const URL = "https://bba-performance-analytics.herokuapp.com"
+//  const URL = "https://performance-analytic.herokuapp.com/"
+ const URL = "http://localhost:3000/"
 
 function App() {
   const [graphData, setGraphData] = useState();

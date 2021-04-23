@@ -3,11 +3,12 @@ import LineChart from 'react-svg-line-chart'
 
 const Dashboard = ({dataToDraw}) =>{
     const coordinateData= dataToDraw && dataToDraw.map((el,i) => ({
-        x:i,y:el
+        x:i,
+        y:el
     }))
     return(
         <div>
-        <p>Time</p>
+        <p>Time(ms)</p>
         <LineChart
             data={coordinateData || []}
         />
