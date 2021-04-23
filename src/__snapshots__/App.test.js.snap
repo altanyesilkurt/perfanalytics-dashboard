@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App should render App 1`] = `ShallowWrapper {}`;
+
+exports[`Dashboard should render Dashboard 1`] = `ShallowWrapper {}`;
+
+exports[`DrawGraphics should render DrawGraphics 1`] = `ShallowWrapper {}`;
